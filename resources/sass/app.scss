@@ -1,1 +1,11 @@
-//
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+
+body {
+	// We dont want jumps when height is smaller than content
+	overflow-y: scroll;
+}
